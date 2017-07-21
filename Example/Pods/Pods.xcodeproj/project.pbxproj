@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35154BA61ECA7C86E59B6356EF463C7B /* Pods-MKSynchronizedCounter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EACBADE307C67C78C219E6811B44F8D /* Pods-MKSynchronizedCounter_Tests-dummy.m */; };
+		410B2FD280A5DC4A8FCB200091263406 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		48A72200353A1338E8E98DA8AE54C2C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4EC782C2BD1D9C6048DD7F5602D41D73 /* MKSynchronizedCounter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 823FB87231FDEE91551806A15AA4528C /* MKSynchronizedCounter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814D0B5648B6B9E9A5E4C0050149A46B /* Pods-MKSynchronizedCounter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4003B86572523A118D9CCEAB1DA23858 /* Pods-MKSynchronizedCounter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB44A061197EF336A70B32224F0F14C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D296E010F34AC7FADCE88A435E61BACB /* MKSynchronizedCounter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C618E6BB4B97C4F3A38AA9E5DF69716 /* MKSynchronizedCounter-dummy.m */; };
+		F22435A74259CBB3598F19F085F67A25 /* Pods-MKSynchronizedCounter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E4932B6F3B4ACF227FCF7020DFF124C /* Pods-MKSynchronizedCounter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE4152827F619D42F27538F23A3FB153 /* Pods-MKSynchronizedCounter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE63EAA993DA64DB24489480ADF8F74E /* Pods-MKSynchronizedCounter_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00A2A5B387700B233F653D2E03FBC85B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87C85E490B4807230C73572F2CDBD49E;
+			remoteInfo = MKSynchronizedCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B700543F8A2AA2D32BCDFA70C0B18AE /* Pods-MKSynchronizedCounter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKSynchronizedCounter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0C427149376F13C7AFADE1232952EF8C /* Pods-MKSynchronizedCounter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKSynchronizedCounter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		330F1DF2FAE86745C580071FD892DE0D /* MKSynchronizedCounter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKSynchronizedCounter-prefix.pch"; sourceTree = "<group>"; };
+		3E4932B6F3B4ACF227FCF7020DFF124C /* Pods-MKSynchronizedCounter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MKSynchronizedCounter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4003B86572523A118D9CCEAB1DA23858 /* Pods-MKSynchronizedCounter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MKSynchronizedCounter_Example-umbrella.h"; sourceTree = "<group>"; };
+		5C5A81B85E25BC018BA786F11950C52E /* Pods-MKSynchronizedCounter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MKSynchronizedCounter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		603B34FC1F21EF2A00F8E2C0 /* MKSynchronizedCounter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKSynchronizedCounter.h; sourceTree = "<group>"; };
+		603B34FD1F21EF2A00F8E2C0 /* MKSynchronizedCounter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKSynchronizedCounter.m; sourceTree = "<group>"; };
+		64345925B55C1F313620D3BDEE42463B /* MKSynchronizedCounter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MKSynchronizedCounter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75E2266C578C97B485116E1A1D424647 /* Pods-MKSynchronizedCounter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MKSynchronizedCounter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		823FB87231FDEE91551806A15AA4528C /* MKSynchronizedCounter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKSynchronizedCounter-umbrella.h"; sourceTree = "<group>"; };
+		8278AB678880ADCF61A55344CCB78B36 /* Pods-MKSynchronizedCounter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MKSynchronizedCounter_Example-resources.sh"; sourceTree = "<group>"; };
+		8A740E1EDCC75D1C092775B43A810CF9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C4D7B6461FC17B5093A08C3F0B27F42 /* Pods_MKSynchronizedCounter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MKSynchronizedCounter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C618E6BB4B97C4F3A38AA9E5DF69716 /* MKSynchronizedCounter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MKSynchronizedCounter-dummy.m"; sourceTree = "<group>"; };
+		9EACBADE307C67C78C219E6811B44F8D /* Pods-MKSynchronizedCounter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MKSynchronizedCounter_Tests-dummy.m"; sourceTree = "<group>"; };
+		A985963E79BBC4E16DC7D2A1D79F8A08 /* Pods-MKSynchronizedCounter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKSynchronizedCounter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		ABE1692A1DD14C2702595B3ED891CB81 /* Pods-MKSynchronizedCounter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MKSynchronizedCounter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2E54B5CE7D437B08F988CA31011DF12 /* Pods-MKSynchronizedCounter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MKSynchronizedCounter_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BE63EAA993DA64DB24489480ADF8F74E /* Pods-MKSynchronizedCounter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MKSynchronizedCounter_Example-dummy.m"; sourceTree = "<group>"; };
+		BEA1654F4BED9F116883CCF8D608021B /* MKSynchronizedCounter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MKSynchronizedCounter.modulemap; sourceTree = "<group>"; };
+		C1E0619ADB7684C03B7A700311F0C399 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25D0C39FF98CF315D7AD74E346AE8EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C843D2C9DCEC61195C0AE5D9808F88AC /* MKSynchronizedCounter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MKSynchronizedCounter.xcconfig; sourceTree = "<group>"; };
+		D1CCB1059AE959F84088A06C6CD46F88 /* Pods-MKSynchronizedCounter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MKSynchronizedCounter_Tests-resources.sh"; sourceTree = "<group>"; };
+		DB6E2B519442AF1ADC2CAC16596227BF /* Pods-MKSynchronizedCounter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MKSynchronizedCounter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E4C770C5B683A638AB15CCD3A06C0C31 /* Pods-MKSynchronizedCounter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MKSynchronizedCounter_Tests.modulemap"; sourceTree = "<group>"; };
+		E8363BAC648EAD658D9101D2A68B49C6 /* Pods-MKSynchronizedCounter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKSynchronizedCounter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E91C4F0A10A96A9499B1EDE6E915B595 /* Pods-MKSynchronizedCounter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MKSynchronizedCounter_Example.modulemap"; sourceTree = "<group>"; };
+		EA8A19C483EFB78B108CB141ECEAE964 /* Pods_MKSynchronizedCounter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MKSynchronizedCounter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA702ABF79C199CCEB8B4437553233F0 /* Pods-MKSynchronizedCounter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MKSynchronizedCounter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3088BD4B4DDCBEC71FE80F4262B2D501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410B2FD280A5DC4A8FCB200091263406 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		431887422FB12B768B0F95B1CFD2024E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A72200353A1338E8E98DA8AE54C2C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8B0D6DD95283F926CF884CCFD7C5AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB44A061197EF336A70B32224F0F14C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29AEFAFDDE35C6CFA982267F8B249EDB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F50FF7825B38B6379DF60F446B77112E /* Pods-MKSynchronizedCounter_Example */,
+				895F560DF43BCC9094B5C7B1AAB48FDE /* Pods-MKSynchronizedCounter_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2BF35082F78426CEDE2417CDE2AADFD4 /* MKSynchronizedCounter */ = {
+			isa = PBXGroup;
+			children = (
+				A69375F924ADF0B8B569EFFBD513618F /* Classes */,
+			);
+			path = MKSynchronizedCounter;
+			sourceTree = "<group>";
+		};
+		35D5C5B47979B63329C2A0B3ABE3EADF /* MKSynchronizedCounter */ = {
+			isa = PBXGroup;
+			children = (
+				2BF35082F78426CEDE2417CDE2AADFD4 /* MKSynchronizedCounter */,
+				40A63D71C1D52ECDFC99E59D55CB26A9 /* Support Files */,
+			);
+			name = MKSynchronizedCounter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		360932971DB2805EB5F89B6C6F400012 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35D5C5B47979B63329C2A0B3ABE3EADF /* MKSynchronizedCounter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		40A63D71C1D52ECDFC99E59D55CB26A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A740E1EDCC75D1C092775B43A810CF9 /* Info.plist */,
+				BEA1654F4BED9F116883CCF8D608021B /* MKSynchronizedCounter.modulemap */,
+				C843D2C9DCEC61195C0AE5D9808F88AC /* MKSynchronizedCounter.xcconfig */,
+				9C618E6BB4B97C4F3A38AA9E5DF69716 /* MKSynchronizedCounter-dummy.m */,
+				330F1DF2FAE86745C580071FD892DE0D /* MKSynchronizedCounter-prefix.pch */,
+				823FB87231FDEE91551806A15AA4528C /* MKSynchronizedCounter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MKSynchronizedCounter";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				360932971DB2805EB5F89B6C6F400012 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				82CCBA8358B88A7CCDA672CF9F0F52A9 /* Products */,
+				29AEFAFDDE35C6CFA982267F8B249EDB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82CCBA8358B88A7CCDA672CF9F0F52A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64345925B55C1F313620D3BDEE42463B /* MKSynchronizedCounter.framework */,
+				9C4D7B6461FC17B5093A08C3F0B27F42 /* Pods_MKSynchronizedCounter_Example.framework */,
+				EA8A19C483EFB78B108CB141ECEAE964 /* Pods_MKSynchronizedCounter_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		895F560DF43BCC9094B5C7B1AAB48FDE /* Pods-MKSynchronizedCounter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C1E0619ADB7684C03B7A700311F0C399 /* Info.plist */,
+				E4C770C5B683A638AB15CCD3A06C0C31 /* Pods-MKSynchronizedCounter_Tests.modulemap */,
+				DB6E2B519442AF1ADC2CAC16596227BF /* Pods-MKSynchronizedCounter_Tests-acknowledgements.markdown */,
+				75E2266C578C97B485116E1A1D424647 /* Pods-MKSynchronizedCounter_Tests-acknowledgements.plist */,
+				9EACBADE307C67C78C219E6811B44F8D /* Pods-MKSynchronizedCounter_Tests-dummy.m */,
+				B2E54B5CE7D437B08F988CA31011DF12 /* Pods-MKSynchronizedCounter_Tests-frameworks.sh */,
+				D1CCB1059AE959F84088A06C6CD46F88 /* Pods-MKSynchronizedCounter_Tests-resources.sh */,
+				3E4932B6F3B4ACF227FCF7020DFF124C /* Pods-MKSynchronizedCounter_Tests-umbrella.h */,
+				0C427149376F13C7AFADE1232952EF8C /* Pods-MKSynchronizedCounter_Tests.debug.xcconfig */,
+				E8363BAC648EAD658D9101D2A68B49C6 /* Pods-MKSynchronizedCounter_Tests.release.xcconfig */,
+			);
+			name = "Pods-MKSynchronizedCounter_Tests";
+			path = "Target Support Files/Pods-MKSynchronizedCounter_Tests";
+			sourceTree = "<group>";
+		};
+		A69375F924ADF0B8B569EFFBD513618F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				603B34FC1F21EF2A00F8E2C0 /* MKSynchronizedCounter.h */,
+				603B34FD1F21EF2A00F8E2C0 /* MKSynchronizedCounter.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F50FF7825B38B6379DF60F446B77112E /* Pods-MKSynchronizedCounter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C25D0C39FF98CF315D7AD74E346AE8EA /* Info.plist */,
+				E91C4F0A10A96A9499B1EDE6E915B595 /* Pods-MKSynchronizedCounter_Example.modulemap */,
+				ABE1692A1DD14C2702595B3ED891CB81 /* Pods-MKSynchronizedCounter_Example-acknowledgements.markdown */,
+				FA702ABF79C199CCEB8B4437553233F0 /* Pods-MKSynchronizedCounter_Example-acknowledgements.plist */,
+				BE63EAA993DA64DB24489480ADF8F74E /* Pods-MKSynchronizedCounter_Example-dummy.m */,
+				5C5A81B85E25BC018BA786F11950C52E /* Pods-MKSynchronizedCounter_Example-frameworks.sh */,
+				8278AB678880ADCF61A55344CCB78B36 /* Pods-MKSynchronizedCounter_Example-resources.sh */,
+				4003B86572523A118D9CCEAB1DA23858 /* Pods-MKSynchronizedCounter_Example-umbrella.h */,
+				0B700543F8A2AA2D32BCDFA70C0B18AE /* Pods-MKSynchronizedCounter_Example.debug.xcconfig */,
+				A985963E79BBC4E16DC7D2A1D79F8A08 /* Pods-MKSynchronizedCounter_Example.release.xcconfig */,
+			);
+			name = "Pods-MKSynchronizedCounter_Example";
+			path = "Target Support Files/Pods-MKSynchronizedCounter_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B9304CE5E748988742640057B9F9FB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22435A74259CBB3598F19F085F67A25 /* Pods-MKSynchronizedCounter_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBA9179C6F1A1BF2178AC3A8B27B281 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC782C2BD1D9C6048DD7F5602D41D73 /* MKSynchronizedCounter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85034DB7FADC84351B3844A8FBAB6A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814D0B5648B6B9E9A5E4C0050149A46B /* Pods-MKSynchronizedCounter_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B4A254DB3684BCC57FDD7B919927EF5 /* Pods-MKSynchronizedCounter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759F152F97AFF38AD71E6C4BCB0629C8 /* Build configuration list for PBXNativeTarget "Pods-MKSynchronizedCounter_Example" */;
+			buildPhases = (
+				5A5214AAEE51BF1FA7EC360772EF83B5 /* Sources */,
+				431887422FB12B768B0F95B1CFD2024E /* Frameworks */,
+				B85034DB7FADC84351B3844A8FBAB6A6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				828A7BF68339B1F47B76CD9AEDB3AFE5 /* PBXTargetDependency */,
+			);
+			name = "Pods-MKSynchronizedCounter_Example";
+			productName = "Pods-MKSynchronizedCounter_Example";
+			productReference = 9C4D7B6461FC17B5093A08C3F0B27F42 /* Pods_MKSynchronizedCounter_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		862EB6E6FEA438E4AEF0A05D374FB41F /* Pods-MKSynchronizedCounter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E071B54AA76E48FCED28467AE7E1DC /* Build configuration list for PBXNativeTarget "Pods-MKSynchronizedCounter_Tests" */;
+			buildPhases = (
+				6133E634055E5FB7A0D57EB864ED9E3B /* Sources */,
+				5C8B0D6DD95283F926CF884CCFD7C5AC /* Frameworks */,
+				2B9304CE5E748988742640057B9F9FB2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MKSynchronizedCounter_Tests";
+			productName = "Pods-MKSynchronizedCounter_Tests";
+			productReference = EA8A19C483EFB78B108CB141ECEAE964 /* Pods_MKSynchronizedCounter_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		87C85E490B4807230C73572F2CDBD49E /* MKSynchronizedCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE15D0AAEDB81B46B0FE268DDB1B177 /* Build configuration list for PBXNativeTarget "MKSynchronizedCounter" */;
+			buildPhases = (
+				9B57D5D3D3A96A4C5EA4C681B9166990 /* Sources */,
+				3088BD4B4DDCBEC71FE80F4262B2D501 /* Frameworks */,
+				2BBA9179C6F1A1BF2178AC3A8B27B281 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKSynchronizedCounter;
+			productName = MKSynchronizedCounter;
+			productReference = 64345925B55C1F313620D3BDEE42463B /* MKSynchronizedCounter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 82CCBA8358B88A7CCDA672CF9F0F52A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87C85E490B4807230C73572F2CDBD49E /* MKSynchronizedCounter */,
+				1B4A254DB3684BCC57FDD7B919927EF5 /* Pods-MKSynchronizedCounter_Example */,
+				862EB6E6FEA438E4AEF0A05D374FB41F /* Pods-MKSynchronizedCounter_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A5214AAEE51BF1FA7EC360772EF83B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4152827F619D42F27538F23A3FB153 /* Pods-MKSynchronizedCounter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6133E634055E5FB7A0D57EB864ED9E3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35154BA61ECA7C86E59B6356EF463C7B /* Pods-MKSynchronizedCounter_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B57D5D3D3A96A4C5EA4C681B9166990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D296E010F34AC7FADCE88A435E61BACB /* MKSynchronizedCounter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		828A7BF68339B1F47B76CD9AEDB3AFE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MKSynchronizedCounter;
+			target = 87C85E490B4807230C73572F2CDBD49E /* MKSynchronizedCounter */;
+			targetProxy = 00A2A5B387700B233F653D2E03FBC85B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		218D71B920B130B677AF9B2A993C6B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C427149376F13C7AFADE1232952EF8C /* Pods-MKSynchronizedCounter_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MKSynchronizedCounter_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MKSynchronizedCounter_Tests/Pods-MKSynchronizedCounter_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MKSynchronizedCounter_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		42568E26E2B932A9A015EDECBB1DFD02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B700543F8A2AA2D32BCDFA70C0B18AE /* Pods-MKSynchronizedCounter_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MKSynchronizedCounter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MKSynchronizedCounter_Example/Pods-MKSynchronizedCounter_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MKSynchronizedCounter_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FE5026FFD14B925322A1D29DBEC1726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A985963E79BBC4E16DC7D2A1D79F8A08 /* Pods-MKSynchronizedCounter_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MKSynchronizedCounter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MKSynchronizedCounter_Example/Pods-MKSynchronizedCounter_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MKSynchronizedCounter_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8501F498E09C4C6660EF693DD9EEC976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C843D2C9DCEC61195C0AE5D9808F88AC /* MKSynchronizedCounter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MKSynchronizedCounter/MKSynchronizedCounter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MKSynchronizedCounter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MKSynchronizedCounter/MKSynchronizedCounter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MKSynchronizedCounter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95C00128E3C5B4F93806F5D40982A68B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C843D2C9DCEC61195C0AE5D9808F88AC /* MKSynchronizedCounter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MKSynchronizedCounter/MKSynchronizedCounter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MKSynchronizedCounter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MKSynchronizedCounter/MKSynchronizedCounter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MKSynchronizedCounter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC72B7D993CEF107007CA520BEA73D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8363BAC648EAD658D9101D2A68B49C6 /* Pods-MKSynchronizedCounter_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MKSynchronizedCounter_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MKSynchronizedCounter_Tests/Pods-MKSynchronizedCounter_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MKSynchronizedCounter_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		759F152F97AFF38AD71E6C4BCB0629C8 /* Build configuration list for PBXNativeTarget "Pods-MKSynchronizedCounter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42568E26E2B932A9A015EDECBB1DFD02 /* Debug */,
+				7FE5026FFD14B925322A1D29DBEC1726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96E071B54AA76E48FCED28467AE7E1DC /* Build configuration list for PBXNativeTarget "Pods-MKSynchronizedCounter_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218D71B920B130B677AF9B2A993C6B7C /* Debug */,
+				DC72B7D993CEF107007CA520BEA73D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE15D0AAEDB81B46B0FE268DDB1B177 /* Build configuration list for PBXNativeTarget "MKSynchronizedCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C00128E3C5B4F93806F5D40982A68B /* Debug */,
+				8501F498E09C4C6660EF693DD9EEC976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

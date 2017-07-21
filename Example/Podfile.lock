@@ -1,0 +1,16 @@
+PODS:
+  - MKSynchronizedCounter (0.1.0)
+
+DEPENDENCIES:
+  - MKSynchronizedCounter (from `../`)
+
+EXTERNAL SOURCES:
+  MKSynchronizedCounter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MKSynchronizedCounter: e6ddf6bae2761ea29ca93ff7d1c2045fd61440ae
+
+PODFILE CHECKSUM: 4e5bf006a79ee3419481d13e856dd7c44c90a298
+
+COCOAPODS: 1.2.1
