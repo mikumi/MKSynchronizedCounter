@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MKSynchronizedCounter_Example' do
+  pod 'MKSynchronizedCounter', :path => '../'
+
+  target 'MKSynchronizedCounter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
